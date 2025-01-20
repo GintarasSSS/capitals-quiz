@@ -7,6 +7,11 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Important
+
+- JS framework: `Vue.js`
+- Sometimes after `npm run build` tests fail - run them twice `XDEBUG_MODE=coverage php artisan test --coverage`
+
 ## Launching
 - Clone repository and go into directory: `cd capitals-quiz`
 - Build container: `docker-compose up -d`
